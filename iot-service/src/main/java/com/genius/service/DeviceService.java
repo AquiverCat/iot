@@ -18,18 +18,18 @@ public interface DeviceService {
      * @param userId
      * @param deviceId
      */
-    public void deleteUserAddress(String userId, String deviceId);
+    public void deleteUserDevice(String userId, String deviceId);
 
     /**
      * 修改设备
      * @param deviceBO
      */
-    public void updateUserAddress(DeviceBO deviceBO);
+    public void updateUserDevice(DeviceBO deviceBO);
 
     /**
      * 根据用户id查询用户的设备列表
      * @param userId
      * @return
      */
-    public List<Device> queryAll(String userId);
+    public List<Device> queryAllDevice(String userId);
 }

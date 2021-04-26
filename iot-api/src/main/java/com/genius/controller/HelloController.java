@@ -8,6 +8,7 @@ import com.itextpdf.text.pdf.*;
 
 import fr.opensagres.poi.xwpf.converter.pdf.PdfConverter;
 import fr.opensagres.poi.xwpf.converter.pdf.PdfOptions;
+import io.swagger.annotations.Api;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +20,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
 
+@Api(value = "测试接口", tags = {"用于测试的相关接口"})
 @RestController
 public class HelloController {
 
