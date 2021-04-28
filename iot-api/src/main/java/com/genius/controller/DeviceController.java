@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Api(value = "设备管理", tags = {"用于设备增删改查的相关接口"})
+@Api(value = "设备管理", tags = {"用于设备增删改查的接口"})
 @RequestMapping("device")
 @RestController
 public class DeviceController {

@@ -20,7 +20,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
 
-@Api(value = "测试接口", tags = {"用于测试的相关接口"})
+@Api(value = "测试接口", tags = {"用于测试的接口"})
 @RestController
 public class HelloController {
 
