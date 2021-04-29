@@ -24,8 +24,11 @@ public class DeviceBO {
     @ApiModelProperty(value = "订阅主题",name = "receive",example = "/receive",required = true)
     private String receive;
 
-    @ApiModelProperty(value = "设备类型",name = "type",example = "1:  水族箱",required = false)
+    @ApiModelProperty(value = "设备类型",name = "type",example = "1:水族箱 2:智能插排 3: 智能花盆",required = false)
     private Integer type;
+
+    @ApiModelProperty(value = "是否公开",name = "isPublic",example = "1:  是",required = true)
+    private Integer isPublic;
 
     public String getDeviceId() {
         return deviceId;
@@ -81,5 +84,13 @@ public class DeviceBO {
 
     public void setType(Integer type) {
         this.type = type;
+    }
+
+    public Integer getIsPublic() {
+        return isPublic;
+    }
+
+    public void setIsPublic(Integer isPublic) {
+        this.isPublic = isPublic;
     }
 }

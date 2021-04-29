@@ -37,7 +37,7 @@ public class Device {
     private String receive;
 
     /**
-     * 设备类型 1:  水族箱:  2:智能插排 3:智能花盆
+     * 设备类型 1: 水族箱  2:智能插排  3:智能花盆
      */
     private Integer type;
 
@@ -45,6 +45,11 @@ public class Device {
      * 设备图片
      */
     private String imag;
+
+    /**
+     * 是否公开 1是  0:否
+     */
+    private Integer isPublic;
 
     /**
      * 创建时间
@@ -200,6 +205,23 @@ public class Device {
      */
     public void setImag(String imag) {
         this.imag = imag;
+    }
+
+    /**
+     * 获取是否公开 1是  0:否
+     *
+     */
+    public Integer getIsPublic() {
+        return isPublic;
+    }
+
+    /**
+     * 设置是否公开 1是  0:否
+     *
+     * @param isPublic 是否公开 1是  0:否
+     */
+    public void setIsPublic(Integer isPublic) {
+        this.isPublic = isPublic;
     }
 
     /**

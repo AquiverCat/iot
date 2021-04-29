@@ -13,6 +13,7 @@
     <result column="receive" property="receive" jdbcType="VARCHAR" />
     <result column="type" property="type" jdbcType="INTEGER" />
     <result column="imag" property="imag" jdbcType="VARCHAR" />
+    <result column="is_public" property="isPublic" jdbcType="VARCHAR" />
     <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
     <result column="updated_time" property="updatedTime" jdbcType="TIMESTAMP" />
   </resultMap>

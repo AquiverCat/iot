@@ -126,7 +126,7 @@ public class FeedPlanController {
         return JSONResult.ok();
     }
 
-    @ApiOperation(value = "用户删除设备", notes = "用户删除设备", httpMethod = "POST")
+    @ApiOperation(value = "用户删除饲养方案", notes = "用户删除饲养方案", httpMethod = "POST")
     @PostMapping("/delete")
     public JSONResult delete(
             @ApiParam(name = "userId", value = "用户ID", required = true)

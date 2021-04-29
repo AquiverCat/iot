@@ -1,8 +1,6 @@
 package com.genius.service;
 
-import com.genius.pojo.Device;
 import com.genius.pojo.FeedPlan;
-import com.genius.pojo.bo.DeviceBO;
 import com.genius.pojo.bo.FeedPlanBO;
 
 import java.util.List;
